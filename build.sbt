@@ -18,4 +18,6 @@ outputStrategy := Some(StdoutOutput)
 
 fork := true
 
+coverageEnabled in Test:= true
+
 
