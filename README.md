@@ -32,7 +32,7 @@ numAs: Long = 28
 scala> val numBs = logData.filter(line => line.contains("b")).count()
 numBs: Long = 7
 
-scala>
+scala> sc.stop()
 ```
 
 and then back in the console (ctrl+d):
