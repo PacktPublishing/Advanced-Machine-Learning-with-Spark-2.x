@@ -1,14 +1,10 @@
 package com.example
 
-import org.apache.spark.SparkContext
-import org.apache.spark.SparkContext._
-import org.apache.spark.SparkConf
+import org.apache.spark.{SparkContext, SparkConf}
 
+object QuickStart {
 
-object Hello {
-
-  def main(args: Array[String]): Unit = {
-
+  def runCode() = {
     val conf =
       new SparkConf().setAppName("Simple Application").setMaster("local")
     val sc = new SparkContext(conf)
@@ -20,7 +16,7 @@ object Hello {
     println("Lines with a: %s, Lines with b: %s".format(numAs, numBs))
 
     sc.stop()
-
   }
+
 
 }
