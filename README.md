@@ -43,7 +43,7 @@ opts: scala.collection.immutable.Map[String,String] = Map(url -> jdbc:postgresql
 scala> val df = spark.read.format("jdbc").options(opts).load
 df: org.apache.spark.sql.DataFrame = ...
 
-scala> df.take(5)
+scala> df.show(false)
 ...
 
 scala> sc.stop()
