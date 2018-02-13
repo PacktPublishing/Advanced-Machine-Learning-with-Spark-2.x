@@ -52,7 +52,7 @@ class MLLibPipelineTest extends FunSuite {
 
     test.show()
     // Make predictions on test documents.
-    val res = model.transform(test)
+    val res = sameModel.transform(test)
     res.show()
 
     res

@@ -24,7 +24,7 @@ object ModelSelectionViaCrossValidationExample {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession
       .builder
-      .master("local[*")
+      .master("local[*]")
       .appName("ModelSelectionViaCrossValidationExample")
       .getOrCreate()
 

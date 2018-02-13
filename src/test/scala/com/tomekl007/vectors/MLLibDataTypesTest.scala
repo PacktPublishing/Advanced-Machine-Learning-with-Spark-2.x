@@ -10,7 +10,8 @@ import org.scalatest.FunSuite
 import org.scalatest.Matchers._
 
 /** *
-  * A local vector has integer-typed and 0-based indices and double-typed values, stored on a single machine.
+  * A local vector has integer-typed and 0-based
+  * indices and double-typed values, stored on a single machine.
   * MLlib supports two types of local vectors: dense and sparse
   * **/
 class MLLibDataTypesTest extends FunSuite {
@@ -64,7 +65,8 @@ class MLLibDataTypesTest extends FunSuite {
     val positiveLabeledPoint = LabeledPoint(1.0, Vectors.dense(1.0, 0.0, 3.0))
 
     // Create a labeled point with a negative label and a sparse feature vector.
-    val negativeLabeledPoint = LabeledPoint(0.0, Vectors.sparse(3, Array(0, 2), Array(1.0, 3.0)))
+    val negativeLabeledPoint = LabeledPoint(0.0, Vectors.sparse(3, Array(0, 2),
+      Array(1.0, 3.0)))
 
     //when
     assert(positiveLabeledPoint.label == 1.0)

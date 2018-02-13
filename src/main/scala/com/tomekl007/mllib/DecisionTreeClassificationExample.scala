@@ -71,6 +71,18 @@ object DecisionTreeClassificationExample {
     // $example off$
 
     spark.stop()
+    /**
+      * Test Error = 0.0
+        Learned classification tree model:
+         DecisionTreeClassificationModel (uid=dtc_f1ac651e2410) of depth 2 with 5 nodes
+          If (feature 434 <= 0.0)
+           If (feature 99 in {2.0})
+            Predict: 0.0
+           Else (feature 99 not in {2.0})
+            Predict: 1.0
+          Else (feature 434 > 0.0)
+           Predict: 0.0
+      */
   }
 }
 
