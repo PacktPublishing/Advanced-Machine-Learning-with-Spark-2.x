@@ -1,3 +1,39 @@
+﻿# Advanced Machine Learning with Spark 2.x [video]
+This is the code repository for [Advanced Machine Learning with Spark 2.x [video]](https://www.packtpub.com/big-data-and-business-intelligence/advanced-machine-learning-spark-2x-video?utm_source=github&utm_medium=repository&utm_campaign=9781788628242), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
+## About the Video Course
+The aim of this course is to provide practical understanding of advanced machine learning algorithms in Apache Spark for making predictions, recommendation and deriving insights among others from large distributed datasets. This course starts with an introduction of key concepts and datatypes that are fundamental to understanding distributed data processing and machine learning with spark. Further to this, we provide practical recipes that demonstrate some of the most popular algorithms in spark, leading to the creation of sophisticated machine learning pipelines and applications. The final sections are dedicated to more advanced use cases of machine learning namely Streaming, Natural Language Processing and Deep Learning. In each section we briefly establish the theoretical bases of the topic under discussion and then cement our understanding with practical use-cases. 
+
+<H2>What You Will Learn</H2>
+<DIV class=book-info-will-learn-text>
+<UL>
+<LI>Build efficient architecture for convolutional neural networks 
+<LI>Construct a residual learning neural network for image recognition 
+<LI>Build depthwise separable convolutional neural networks 
+<LI>Construct conditional Generative Adversarial Networks (GAN) 
+<LI>Build an advanced and powerful multi-class image classifier 
+<LI>Build functional model class and methods with TensorFlow-Keras’ Functional API 
+<LI>Build a computational graph representation of a Neural Network from state-of-the-art deep learning papers 
+<LI>Optimize a neural network with stochastic gradient descent and other advanced optimization methods </LI></UL></DIV>
+
+## Instructions and Navigation
+### Assumed Knowledge
+To fully benefit from the coverage included in this course, you will need:<br/>
+To fully benefit from the coverage included in this course, you will need:
+● Prior working knowledge of the Scala language
+● Familiarity with Git and GitHub for source control
+● Basic Understanding of Apache Spark technology
+
+### Technical Requirements
+This course has the following software requirements:<br/>
+This course has the following software requirements:
+● An IntelliJ IDE
+● JDK 8 
+
+This course has been tested on the following system configuration:
+● OS: MAC OS Sierra
+● Processor: Intel i7 2800
+● Memory: 16GB
+
 # Apache Spark 2.0.0 application starter template
 
 ## Features
@@ -67,3 +103,12 @@ https://stackoverflow.com/questions/31685408/spark-actor-not-found-for-actorsele
 https://jaceklaskowski.gitbooks.io/mastering-apache-spark/content/spark-logging.html
 
 https://spark.apache.org/docs/latest/quick-start.html
+
+
+## Related Products
+* [Learn Algorithms and Data Structures in Java for Day-to-Day Applications [Video]](https://www.packtpub.com/application-development/learn-algorithms-and-data-structures-java-day-day-applications-video?utm_source=github&utm_medium=repository&utm_campaign=9781788624428)
+
+* [Mastering Ansible [Video]](https://www.packtpub.com/virtualization-and-cloud/mastering-ansible-video?utm_source=github&utm_medium=repository&utm_campaign=9781788629515)
+
+* [Advanced Computer Vision with TensorFlow [Video]](https://www.packtpub.com/application-development/advanced-computer-vision-tensorflow-video?utm_source=github&utm_medium=repository&utm_campaign=9781788479448)
+
