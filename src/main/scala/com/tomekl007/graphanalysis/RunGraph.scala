@@ -13,10 +13,10 @@ object RunGraph {
     val spark = SparkSession.builder().master("local[2]").getOrCreate().sparkContext
     print("simpleOperations:")
     simpleGraphOperations(spark)
-    print("structuralOperations:")
-    structuralOperations(spark)
-    print("neighborhoodAggregation:")
-    neighborhoodAggregation(spark)
+//    print("structuralOperations:")
+//    structuralOperations(spark)
+////    print("neighborhoodAggregation:")
+////    neighborhoodAggregation(spark)
 
   }
 
@@ -41,13 +41,13 @@ object RunGraph {
         Edge(5L, 7L, "collegue")) // 5l; ->>
       )
 
-    // Define a default user in case there are relationship with missing user
-    val defaultUser = ("John Doe", "Missing")
+
     // Build the initial Graph
-    val graph: Graph[(String, String), String] = Graph(users, relationships, defaultUser)
+    val graph: Graph[(String, String), String] = Graph(users, relationships)
 
     // Count all users which are postdocs
-    val countOfPostdoc = graph.vertices.filter { case (id, (name, pos)) => pos == "postdoc" }.count
+    val countOfPostdoc = graph.vertices.filter {
+      case (id, (name, pos)) => pos == "postdoc" }.count
     println(s"countOfPostdocs: $countOfPostdoc")
 
     // Count all the edges where src > dst
@@ -90,6 +90,20 @@ object RunGraph {
     val graph = Graph(users, relationships, defaultUser)
     // Notice that there is a user 0 (for which we have no information) connected to users
     // 4 (peter) and 5 (franklin).
+
+    connectedComponents(graph)
+  }
+
+
+  private def connectedComponents(graph: Graph[(String, String), String]) = {
+    // Run Connected Components
+    val ccGraph = graph.connectedComponents() // No longer contains missing field
+    ccGraph.triplets.map(
+      triplet => triplet.srcAttr + " is the " + triplet.attr + " of " + triplet.dstAttr
+    ).collect.foreach(println(_))
+  }
+
+  private def subgraph(graph: Graph[(String, String), String]) = {
     graph.triplets.map(
       triplet => triplet.srcAttr._1 + " is the " + triplet.attr + " of " + triplet.dstAttr._1
     ).collect.foreach(println(_))
@@ -100,14 +114,7 @@ object RunGraph {
     validGraph.triplets.map(
       triplet => triplet.srcAttr._1 + " is the " + triplet.attr + " of " + triplet.dstAttr._1
     ).collect.foreach(println(_))
-
-    // Run Connected Components
-    val ccGraph = graph.connectedComponents() // No longer contains missing field
-    ccGraph.triplets.map(
-      triplet => triplet.srcAttr + " is the " + triplet.attr + " of " + triplet.dstAttr
-    ).collect.foreach(println(_))
   }
-
 
   def neighborhoodAggregation(sc: SparkContext): Unit = {
     // Create a graph with "age" as the vertex property.
