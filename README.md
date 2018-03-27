@@ -19,20 +19,21 @@ The aim of this course is to provide practical understanding of advanced machine
 ### Assumed Knowledge
 To fully benefit from the coverage included in this course, you will need:<br/>
 To fully benefit from the coverage included in this course, you will need:
-● Prior working knowledge of the Scala language
-● Familiarity with Git and GitHub for source control
-● Basic Understanding of Apache Spark technology
+
+<LI> ● Prior working knowledge of the Scala language
+<LI> ● Familiarity with Git and GitHub for source control
+<LI> ● Basic Understanding of Apache Spark technology
 
 ### Technical Requirements
 This course has the following software requirements:<br/>
 This course has the following software requirements:
-● An IntelliJ IDE
-● JDK 8 
+<LI> ● An IntelliJ IDE
+<LI> ● JDK 8 
 
 This course has been tested on the following system configuration:
-● OS: MAC OS Sierra
-● Processor: Intel i7 2800
-● Memory: 16GB
+<LI> ● OS: MAC OS Sierra
+<LI> ● Processor: Intel i7 2800
+<LI> ● Memory: 16GB
 
 # Apache Spark 2.0.0 application starter template
 
