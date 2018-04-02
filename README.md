@@ -1,19 +1,21 @@
 ﻿# Advanced Machine Learning with Spark 2.x [video]
-This is the code repository for [Advanced Machine Learning with Spark 2.x [video]](https://www.packtpub.com/big-data-and-business-intelligence/advanced-machine-learning-spark-2x-video?utm_source=github&utm_medium=repository&utm_campaign=9781788628242), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
+This is the code repository for [Advanced Machine Learning with Spark 2.x [video]](https://www.packtpub.com/big-data-and-business-intelligence/advanced-machine-learning-spark-2x-video), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
 ## About the Video Course
-The aim of this course is to provide practical understanding of advanced machine learning algorithms in Apache Spark for making predictions, recommendation and deriving insights among others from large distributed datasets. This course starts with an introduction of key concepts and datatypes that are fundamental to understanding distributed data processing and machine learning with spark. Further to this, we provide practical recipes that demonstrate some of the most popular algorithms in spark, leading to the creation of sophisticated machine learning pipelines and applications. The final sections are dedicated to more advanced use cases of machine learning namely Streaming, Natural Language Processing and Deep Learning. In each section we briefly establish the theoretical bases of the topic under discussion and then cement our understanding with practical use-cases. 
+The aim of this course is to provide a practical understanding of advanced Machine Learning algorithms in Apache Spark to make predictions and recommendation and derive insights from large distributed datasets. This course starts with an introduction to the key concepts and data types that are fundamental to understanding distributed data processing and Machine Learning with Spark.
+
+Further to this, we provide practical recipes that demonstrate some of the most popular algorithms in Spark, leading to the creation of sophisticated Machine Learning pipelines and applications. The final sections are dedicated to more advanced use cases for Machine Learning: streaming, Natural Language Processing, and Deep Learning. In each section, we briefly establish the theoretical basis of the topic under discussion and then cement our understanding with practical use cases.
 
 <H2>What You Will Learn</H2>
 <DIV class=book-info-will-learn-text>
 <UL>
-<LI>Build efficient architecture for convolutional neural networks 
-<LI>Construct a residual learning neural network for image recognition 
-<LI>Build depthwise separable convolutional neural networks 
-<LI>Construct conditional Generative Adversarial Networks (GAN) 
-<LI>Build an advanced and powerful multi-class image classifier 
-<LI>Build functional model class and methods with TensorFlow-Keras’ Functional API 
-<LI>Build a computational graph representation of a Neural Network from state-of-the-art deep learning papers 
-<LI>Optimize a neural network with stochastic gradient descent and other advanced optimization methods </LI></UL></DIV>
+<LI> Get introduced to Machine Learning libraries and datatypes in Spark: MLlib, ML, vectors, matrices, labeled points, rating datatypes, and more.
+<LI> Understand different key components of Machine Learning applications.
+<LI> Learn to evaluate, fine-tune, save and deploy models along with pipelines.
+<LI> Deploy Machine Learning models in a typical streaming application.
+<LI> Understand Natural Language Processing in Spark.
+<LI> Understand Deep learning workflows in Spark.
+  
+  </LI></UL></DIV>
 
 ## Instructions and Navigation
 ### Assumed Knowledge
