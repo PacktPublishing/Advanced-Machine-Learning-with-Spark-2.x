@@ -1,3 +1,42 @@
+﻿# Advanced Machine Learning with Spark 2.x [video]
+This is the code repository for [Advanced Machine Learning with Spark 2.x [video]](https://www.packtpub.com/big-data-and-business-intelligence/advanced-machine-learning-spark-2x-video), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
+## About the Video Course
+The aim of this course is to provide a practical understanding of advanced Machine Learning algorithms in Apache Spark to make predictions and recommendation and derive insights from large distributed datasets. This course starts with an introduction to the key concepts and data types that are fundamental to understanding distributed data processing and Machine Learning with Spark.
+
+Further to this, we provide practical recipes that demonstrate some of the most popular algorithms in Spark, leading to the creation of sophisticated Machine Learning pipelines and applications. The final sections are dedicated to more advanced use cases for Machine Learning: streaming, Natural Language Processing, and Deep Learning. In each section, we briefly establish the theoretical basis of the topic under discussion and then cement our understanding with practical use cases.
+
+<H2>What You Will Learn</H2>
+<DIV class=book-info-will-learn-text>
+<UL>
+<LI> Get introduced to Machine Learning libraries and datatypes in Spark: MLlib, ML, vectors, matrices, labeled points, rating datatypes, and more.
+<LI> Understand different key components of Machine Learning applications.
+<LI> Learn to evaluate, fine-tune, save and deploy models along with pipelines.
+<LI> Deploy Machine Learning models in a typical streaming application.
+<LI> Understand Natural Language Processing in Spark.
+<LI> Understand Deep learning workflows in Spark.
+  
+  </LI></UL></DIV>
+
+## Instructions and Navigation
+### Assumed Knowledge
+To fully benefit from the coverage included in this course, you will need:<br/>
+To fully benefit from the coverage included in this course, you will need:
+
+<LI> Prior working knowledge of the Scala language
+<LI> Familiarity with Git and GitHub for source control
+<LI> Basic Understanding of Apache Spark technology
+
+### Technical Requirements
+This course has the following software requirements:<br/>
+This course has the following software requirements:
+<LI> An IntelliJ IDE
+<LI> JDK 8 
+
+This course has been tested on the following system configuration:
+<LI> OS: MAC OS Sierra
+<LI> Processor: Intel i7 2800
+<LI> Memory: 16GB
+
 # Apache Spark 2.0.0 application starter template
 
 ## Features
@@ -67,3 +106,12 @@ https://stackoverflow.com/questions/31685408/spark-actor-not-found-for-actorsele
 https://jaceklaskowski.gitbooks.io/mastering-apache-spark/content/spark-logging.html
 
 https://spark.apache.org/docs/latest/quick-start.html
+
+
+## Related Products
+* [Learn Algorithms and Data Structures in Java for Day-to-Day Applications [Video]](https://www.packtpub.com/application-development/learn-algorithms-and-data-structures-java-day-day-applications-video?utm_source=github&utm_medium=repository&utm_campaign=9781788624428)
+
+* [Mastering Ansible [Video]](https://www.packtpub.com/virtualization-and-cloud/mastering-ansible-video?utm_source=github&utm_medium=repository&utm_campaign=9781788629515)
+
+* [Advanced Computer Vision with TensorFlow [Video]](https://www.packtpub.com/application-development/advanced-computer-vision-tensorflow-video?utm_source=github&utm_medium=repository&utm_campaign=9781788479448)
+
