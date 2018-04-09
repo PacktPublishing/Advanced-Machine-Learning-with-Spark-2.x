@@ -1,0 +1,10 @@
+@namespace("com.tomekl007.avro")
+protocol PageViewProtocol {
+    record PageViewWithViewCounter {
+        int page_view_id;
+        string user_id;
+        string url;
+        double event_timestamp;
+        int views_counter;
+    }
+}

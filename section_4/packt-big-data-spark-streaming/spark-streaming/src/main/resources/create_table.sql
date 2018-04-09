@@ -1,0 +1,1 @@
+create table userevent (id int PRIMARY KEY, data varchar, isLast boolean);
